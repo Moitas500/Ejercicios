@@ -9,6 +9,6 @@ def dividirNumero(sublista):
       return dividirNumero(sublista//10) + [3*(sublista%10)]
     return [3*sublista]  
 
-print(multiplosDeTres([10,12,15,25], []))
+print(multiplosDeTres([685,456], []))
 
 
